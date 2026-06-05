@@ -97,7 +97,7 @@ export const siteConfig: SiteConfig = {
   },
   hero: {
     eyebrow: "Desenvolvedor Web",
-    title: "Landing pages e sites profissionais para pequenos negócios venderem mais.",
+    title: "Landing pages e sites profissionais.",
     description:
       "Crio sites modernos, rápidos e responsivos para empresas, profissionais liberais e comércios locais que precisam de presença online, mais autoridade e contato direto pelo WhatsApp.",
     primaryButton: "Solicitar orçamento",

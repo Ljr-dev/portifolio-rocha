@@ -75,127 +75,137 @@ export type SiteConfig = {
 
 export const siteConfig: SiteConfig = {
   brand: {
-    name: "PORTFOLIO-ROCHA",
-    highlight: "PORTFOLIO-ROCHA",
+    name: "LEANDRO",
+    highlight: "ROCHA",
   },
   theme: {
-    background: "#080808",
-    surface: "#141414",
-    surfaceSoft: "#1F1F1F",
+    background: "#050505",
+    surface: "#111111",
+    surfaceSoft: "#1A1A1A",
     foreground: "#FFFFFF",
     muted: "#B8B8B8",
-    primary: "#E11D48",
-    primaryHover: "#BE123C",
-    border: "#2C2C2C",
+    primary: "#38BDF8",
+    primaryHover: "#0EA5E9",
+    border: "#2A2A2A",
   },
   hero: {
-    eyebrow: "Moda, estilo e qualidade",
-    title: "Peças modernas para vestir sua identidade.",
-    description:
-      "Camisetas, conjuntos e peças personalizadas com acabamento de qualidade, conforto e estilo para o dia a dia.",
-    primaryButton: "Ver catálogo",
-    secondaryButton: "Fazer pedido",
-    image: "/images/confeccao.png",
+    eyebrow: "Desenvolvedor Web",
+    title: "Landing pages e sites profissionais para pequenos negócios venderem mais.",
+    description: "Crio sites modernos, rápidos e responsivos para empresas, profissionais liberais e comércios locais que precisam de presença online, mais autoridade e contato direto pelo WhatsApp.",
+    primaryButton: "Solicitar orçamento",
+    secondaryButton: "Ver projetos",
+    image: "/images/portifolio.png",
     stats: [
       {
-        value: "+500",
-        label: "Peças produzidas",
+        value: "3+",
+        label: "Projetos publicados",
       },
       {
         value: "100%",
-        label: "Produção cuidadosa",
+        label: "Sites responsivos",
       },
       {
         value: "24h",
-        label: "Atendimento rápido",
+        label: "Prévia inicial rápida",
       },
     ],
   },
   specialtiesSection: {
-    eyebrow: "Produtos",
-    title: "Moda feita para destacar seu estilo.",
-    description:
-      "Trabalhamos com peças confortáveis, modernas e bem acabadas para clientes que buscam qualidade e personalidade.",
-    ctaLabel: "Ver produto",
+    eyebrow: "Serviços",
+    title: "Sites objetivos, bonitos e prontos para gerar contato.",
+    description: "Criação de páginas profissionais para apresentar sua empresa, divulgar serviços, aumentar a confiança do cliente e facilitar o atendimento pelo WhatsApp.",
+    ctaLabel: "Ver serviço",
   },
   specialties: [
     {
-      title: "Camisetas",
-      description:
-        "Modelos modernos, confortáveis e versáteis para uso no dia a dia, eventos ou marcas personalizadas.",
+      title: "Landing Pages",
+      description: "Páginas de alta conversão para apresentar serviços, divulgar ofertas e transformar visitantes em contatos pelo WhatsApp.",
     },
     {
-      title: "Conjuntos",
-      description:
-        "Peças práticas e estilosas para quem busca conforto sem abrir mão de uma boa apresentação.",
+      title: "Sites Institucionais",
+      description: "Sites profissionais para empresas, autônomos, igrejas, clínicas, academias, barbearias, lojas e prestadores de serviço.",
     },
     {
-      title: "Peças Personalizadas",
-      description:
-        "Produção sob encomenda para empresas, equipes, eventos, igrejas, grupos e marcas próprias.",
+      title: "Portfólios Profissionais",
+      description: "Páginas personalizadas para mostrar trabalhos, fortalecer autoridade e passar mais confiança para novos clientes.",
     },
   ],
   about: {
-    eyebrow: "Sobre a Confecção",
-    title: "Qualidade, cuidado e estilo em cada peça.",
-    description:
-      "Nossa confecção nasceu para entregar peças bonitas, confortáveis e bem produzidas, com atenção aos detalhes e atendimento próximo ao cliente.",
-    image: "/images/confeccao.png",
+    eyebrow: "Sobre mim",
+    title: "Eu ajudo pequenos negócios a aparecerem melhor na internet.",
+    description: "Sou Leandro Rocha, desenvolvedor web focado em criar landing pages e sites profissionais para negócios locais. Meu objetivo é entregar páginas bonitas, rápidas e diretas, com visual moderno e foco em gerar mais contatos para o cliente.",
+    image: "/images/portifolio.png",
     features: [
-      "Peças confortáveis e bem acabadas",
-      "Produção com atenção aos detalhes",
-      "Atendimento rápido pelo WhatsApp",
+      "Layout moderno e responsivo para celular, tablet e computador",
+      "Botão de contato direto pelo WhatsApp",
+      "Página personalizada de acordo com o segmento do cliente",
     ],
-    cardEyebrow: "CONFECÇÃO PREMIUM",
-    cardTitle: "Vista sua melhor versão.",
-    cardDescription:
-      "Criamos peças que unem conforto, estilo e qualidade para valorizar sua imagem em todos os momentos.",
+    cardEyebrow: "DESENVOLVIMENTO WEB",
+    cardTitle: "Seu negócio com uma apresentação mais profissional.",
+    cardDescription: "Criação de sites com foco em clareza, velocidade, aparência profissional e conversão para ajudar sua empresa a ser encontrada e gerar mais oportunidades.",
   },
   testimonialsSection: {
-    eyebrow: "Clientes",
-    title: "Quem comprou recomenda.",
-    description:
-      "Veja a experiência de clientes que escolheram nossas peças e aprovaram a qualidade, o conforto e o atendimento.",
-    customerLabel: "Cliente",
+    eyebrow: "Portfólio",
+    title: "Projetos publicados",
+    description: "Veja alguns modelos de landing pages profissionais criadas para diferentes segmentos de mercado.",
+    customerLabel: "Projeto",
   },
   testimonials: [
     {
-      name: "Bruna Carvalho",
-      text:
-        "Comprei camisetas e gostei muito da qualidade. O tecido é confortável e o acabamento ficou excelente.",
+      name: "Landing Page Advocacia",
+      text: "Página profissional para advogado apresentar áreas de atuação, transmitir autoridade e receber contatos pelo WhatsApp.",
+      url: "https://advocacia-two-kappa.vercel.app/",
     },
     {
-      name: "Jéssica Lima",
-      text:
-        "O conjunto ficou lindo no corpo. Atendimento rápido, produto bem embalado e entrega dentro do combinado.",
+      name: "Landing Page Academia",
+      text: "Site moderno para academia divulgar planos, modalidades, estrutura e agendar avaliações com novos alunos.",
+      url: "https://academia-one-zeta.vercel.app/",
     },
     {
-      name: "Daniel Santos",
-      text:
-        "Fiz um pedido personalizado para minha equipe e ficou muito bom. Recomendo pela qualidade e atenção.",
+      name: "Landing Page Barbearia",
+      text: "Página visual para barbearia mostrar serviços, diferenciais, endereço, horários e facilitar agendamentos.",
+      url: "https://barbearia-brown-xi.vercel.app/",
     },
   ],
   contact: {
     eyebrow: "Contato",
-    title: "Faça seu pedido",
-    description:
-      "Entre em contato pelo WhatsApp para conhecer o catálogo, consultar modelos disponíveis ou solicitar peças personalizadas.",
-    primaryButton: "Chamar no WhatsApp",
+    title: "Vamos criar o site do seu negócio?",
+    description: "Entre em contato e me conte qual tipo de página você precisa. Posso criar uma landing page profissional para apresentar seus serviços, divulgar sua empresa e gerar mais oportunidades.",
+    primaryButton: "Falar no WhatsApp",
     secondaryButton: "Enviar e-mail",
     phone: "5519982144043",
-    whatsappMessage: "Olá, gostaria de conhecer o catálogo e fazer um pedido.",
+    whatsappMessage: "Olá, Leandro. Gostaria de fazer um orçamento para criar uma landing page ou site profissional.",
     address: "Hortolândia - SP",
-    email: "contato@tkstyle.com.br",
-    hours: "Segunda a sábado, 09h às 19h",
-    serviceArea: "Moda, confecção e peças personalizadas",
+    email: "leandrojoserocha@hotmail.com",
+    hours: "Atendimento de segunda a sábado",
+    serviceArea: "Criação de landing pages, sites institucionais e portfólios profissionais",
   },
   footer: {
-    description:
-      "Moda, camisetas, conjuntos e peças personalizadas com qualidade, conforto e estilo.",
+    description: "Landing pages e sites profissionais para pequenos negócios venderem mais e terem presença digital.",
   },
+  projects: [
+    {
+      title: "Advocacia",
+      description: "Landing page para escritório de advocacia com foco em autoridade e contato rápido.",
+      image: "/images/projetos/advocacia.png",
+      url: "https://advocacia-two-kappa.vercel.app/",
+    },
+    {
+      title: "Academia",
+      description: "Landing page para academia apresentar planos, estrutura e modalidades.",
+      image: "/images/projetos/academia.png",
+      url: "https://academia-one-zeta.vercel.app/",
+    },
+    {
+      title: "Barbearia",
+      description: "Landing page para barbearia divulgar serviços, horários e agendamentos.",
+      image: "/images/projetos/barbearia.png",
+      url: "https://barbearia-brown-xi.vercel.app/",
+    },
+  ],
 };
 
-export const SITE_CONFIG_STORAGE_KEY = "confeccao-premium:site-config";
+export const SITE_CONFIG_STORAGE_KEY = "leandro-premium:site-config";
 
 export function mergeSiteConfig(config: Partial<SiteConfig> = {}): SiteConfig {
   return {

@@ -54,6 +54,13 @@ export type SiteConfig = {
   testimonials: Array<{
     name: string;
     text: string;
+    url?: string;
+  }>;
+  projects?: Array<{
+    title: string;
+    description: string;
+    image: string;
+    url: string;
   }>;
   contact: {
     eyebrow: string;
@@ -91,7 +98,8 @@ export const siteConfig: SiteConfig = {
   hero: {
     eyebrow: "Desenvolvedor Web",
     title: "Landing pages e sites profissionais para pequenos negócios venderem mais.",
-    description: "Crio sites modernos, rápidos e responsivos para empresas, profissionais liberais e comércios locais que precisam de presença online, mais autoridade e contato direto pelo WhatsApp.",
+    description:
+      "Crio sites modernos, rápidos e responsivos para empresas, profissionais liberais e comércios locais que precisam de presença online, mais autoridade e contato direto pelo WhatsApp.",
     primaryButton: "Solicitar orçamento",
     secondaryButton: "Ver projetos",
     image: "/images/portifolio.png",
@@ -113,27 +121,32 @@ export const siteConfig: SiteConfig = {
   specialtiesSection: {
     eyebrow: "Serviços",
     title: "Sites objetivos, bonitos e prontos para gerar contato.",
-    description: "Criação de páginas profissionais para apresentar sua empresa, divulgar serviços, aumentar a confiança do cliente e facilitar o atendimento pelo WhatsApp.",
+    description:
+      "Criação de páginas profissionais para apresentar sua empresa, divulgar serviços, aumentar a confiança do cliente e facilitar o atendimento pelo WhatsApp.",
     ctaLabel: "Ver serviço",
   },
   specialties: [
     {
       title: "Landing Pages",
-      description: "Páginas de alta conversão para apresentar serviços, divulgar ofertas e transformar visitantes em contatos pelo WhatsApp.",
+      description:
+        "Páginas de alta conversão para apresentar serviços, divulgar ofertas e transformar visitantes em contatos pelo WhatsApp.",
     },
     {
       title: "Sites Institucionais",
-      description: "Sites profissionais para empresas, autônomos, igrejas, clínicas, academias, barbearias, lojas e prestadores de serviço.",
+      description:
+        "Sites profissionais para empresas, autônomos, igrejas, clínicas, academias, barbearias, lojas e prestadores de serviço.",
     },
     {
       title: "Portfólios Profissionais",
-      description: "Páginas personalizadas para mostrar trabalhos, fortalecer autoridade e passar mais confiança para novos clientes.",
+      description:
+        "Páginas personalizadas para mostrar trabalhos, fortalecer autoridade e passar mais confiança para novos clientes.",
     },
   ],
   about: {
     eyebrow: "Sobre mim",
     title: "Eu ajudo pequenos negócios a aparecerem melhor na internet.",
-    description: "Sou Leandro Rocha, desenvolvedor web focado em criar landing pages e sites profissionais para negócios locais. Meu objetivo é entregar páginas bonitas, rápidas e diretas, com visual moderno e foco em gerar mais contatos para o cliente.",
+    description:
+      "Sou Leandro Rocha, desenvolvedor web focado em criar landing pages e sites profissionais para negócios locais. Meu objetivo é entregar páginas bonitas, rápidas e diretas, com visual moderno e foco em gerar mais contatos para o cliente.",
     image: "/images/portifolio.png",
     features: [
       "Layout moderno e responsivo para celular, tablet e computador",
@@ -142,67 +155,79 @@ export const siteConfig: SiteConfig = {
     ],
     cardEyebrow: "DESENVOLVIMENTO WEB",
     cardTitle: "Seu negócio com uma apresentação mais profissional.",
-    cardDescription: "Criação de sites com foco em clareza, velocidade, aparência profissional e conversão para ajudar sua empresa a ser encontrada e gerar mais oportunidades.",
+    cardDescription:
+      "Criação de sites com foco em clareza, velocidade, aparência profissional e conversão para ajudar sua empresa a ser encontrada e gerar mais oportunidades.",
   },
   testimonialsSection: {
     eyebrow: "Portfólio",
     title: "Projetos publicados",
-    description: "Veja alguns modelos de landing pages profissionais criadas para diferentes segmentos de mercado.",
+    description:
+      "Veja alguns modelos de landing pages profissionais criadas para diferentes segmentos de mercado.",
     customerLabel: "Projeto",
   },
   testimonials: [
     {
       name: "Landing Page Advocacia",
-      text: "Página profissional para advogado apresentar áreas de atuação, transmitir autoridade e receber contatos pelo WhatsApp.",
+      text:
+        "Página profissional para advogado apresentar áreas de atuação, transmitir autoridade e receber contatos pelo WhatsApp.",
       url: "https://advocacia-two-kappa.vercel.app/",
     },
     {
       name: "Landing Page Academia",
-      text: "Site moderno para academia divulgar planos, modalidades, estrutura e agendar avaliações com novos alunos.",
+      text:
+        "Site moderno para academia divulgar planos, modalidades, estrutura e agendar avaliações com novos alunos.",
       url: "https://academia-one-zeta.vercel.app/",
     },
     {
       name: "Landing Page Barbearia",
-      text: "Página visual para barbearia mostrar serviços, diferenciais, endereço, horários e facilitar agendamentos.",
+      text:
+        "Página visual para barbearia mostrar serviços, diferenciais, endereço, horários e facilitar agendamentos.",
+      url: "https://barbearia-brown-xi.vercel.app/",
+    },
+  ],
+  projects: [
+    {
+      title: "Advocacia",
+      description:
+        "Landing page para escritório de advocacia com foco em autoridade e contato rápido.",
+      image: "/images/projetos/advocacia.png",
+      url: "https://advocacia-two-kappa.vercel.app/",
+    },
+    {
+      title: "Academia",
+      description:
+        "Landing page para academia apresentar planos, estrutura e modalidades.",
+      image: "/images/projetos/academia.png",
+      url: "https://academia-one-zeta.vercel.app/",
+    },
+    {
+      title: "Barbearia",
+      description:
+        "Landing page para barbearia divulgar serviços, horários e agendamentos.",
+      image: "/images/projetos/barbearia.png",
       url: "https://barbearia-brown-xi.vercel.app/",
     },
   ],
   contact: {
     eyebrow: "Contato",
     title: "Vamos criar o site do seu negócio?",
-    description: "Entre em contato e me conte qual tipo de página você precisa. Posso criar uma landing page profissional para apresentar seus serviços, divulgar sua empresa e gerar mais oportunidades.",
+    description:
+      "Entre em contato e me conte qual tipo de página você precisa. Posso criar uma landing page profissional para apresentar seus serviços, divulgar sua empresa e gerar mais oportunidades.",
     primaryButton: "Falar no WhatsApp",
     secondaryButton: "Enviar e-mail",
     phone: "5519982144043",
-    whatsappMessage: "Olá, Leandro. Gostaria de fazer um orçamento para criar uma landing page ou site profissional.",
+    whatsappMessage:
+      "Olá, Leandro. Gostaria de fazer um orçamento para criar uma landing page ou site profissional.",
     address: "Hortolândia - SP",
     email: "leandrojoserocha@hotmail.com",
     hours: "Atendimento de segunda a sábado",
-    serviceArea: "Criação de landing pages, sites institucionais e portfólios profissionais",
+    serviceArea:
+      "Criação de landing pages, sites institucionais e portfólios profissionais",
   },
   footer: {
-    description: "Landing pages e sites profissionais para pequenos negócios venderem mais e terem presença digital.",
+    description:
+      "Landing pages e sites profissionais para pequenos negócios venderem mais e terem presença digital.",
   },
-  projects: [
-    {
-      title: "Advocacia",
-      description: "Landing page para escritório de advocacia com foco em autoridade e contato rápido.",
-      image: "/images/projetos/advocacia.png",
-      url: "https://advocacia-two-kappa.vercel.app/",
-    },
-    {
-      title: "Academia",
-      description: "Landing page para academia apresentar planos, estrutura e modalidades.",
-      image: "/images/projetos/academia.png",
-      url: "https://academia-one-zeta.vercel.app/",
-    },
-    {
-      title: "Barbearia",
-      description: "Landing page para barbearia divulgar serviços, horários e agendamentos.",
-      image: "/images/projetos/barbearia.png",
-      url: "https://barbearia-brown-xi.vercel.app/",
-    },
-  ],
 };
 
 export const SITE_CONFIG_STORAGE_KEY = "leandro-premium:site-config";
@@ -233,6 +258,7 @@ export function mergeSiteConfig(config: Partial<SiteConfig> = {}): SiteConfig {
       ...config.testimonialsSection,
     },
     testimonials: config.testimonials ?? siteConfig.testimonials,
+    projects: config.projects ?? siteConfig.projects,
     contact: { ...siteConfig.contact, ...config.contact },
     footer: { ...siteConfig.footer, ...config.footer },
   };

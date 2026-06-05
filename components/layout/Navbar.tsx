@@ -7,7 +7,7 @@ import { useSiteConfig } from "@/hooks/useSiteConfig";
 const links = [
   { label: "Especialidades", href: "#especialidades" },
   { label: "Sobre", href: "#sobre" },
-  { label: "Projetos", href: "#depoimentos" },
+  { label: "Projetos", href: "#projetos" },
   { label: "Contato", href: "#contato" },
 ];
 
